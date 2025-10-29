@@ -1,0 +1,88 @@
+body {
+    color: #00043b6b;
+    padding: 5px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right top, #c0d1ff, #9ba3ef, #bca6ef, #747eb4, #9693fb, #63b0e1, #c0bbf8, #dccef0, #dfbdf8, #9bb4e9, #d5d9ed, #5874ff, #afb5e4);
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border-radius: 20px;
+    border: 2px solid #000ea3;
+    background: #0300c52c;
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 40px;
+    font-weight: bold;
+    color: #b3d2ff;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border: transparent;
+}
+
+.reset-btn {
+    background: #3234ce;
+}
+
+.submit-btn {
+    background: #564dc1;
+}
+
+.hobbies label {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: first baseline;
+}
+
+.program-lang-skill label {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+/* replace ID to classes for fields */
+
+#fullname,
+#about,
+#password,
+#email,
+#phone,
+#birthdate,
+#city {
+    font-weight: bold;
+    color: #0f0260;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: transparent;
+    background: #dadeff26;
+    margin: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#zodiac,
+#level,
+#color {
+    font-weight: bold;
+    color: #afa2f4;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: transparent;
+    background: #00007631;
+    display: block;
+    margin: 10px 0;
+}

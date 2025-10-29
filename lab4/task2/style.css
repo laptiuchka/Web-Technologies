@@ -18,7 +18,11 @@ td {
 
 }
 
-th:nth-child(1) { background-color: #f6dddd; color: #5e1a1a; }
+th:nth-child(1) { 
+  background-color: #f6dddd; 
+  color: #5e1a1a; 
+}
+
 th:nth-child(2) { background-color: #e5a2a2; }
 th:nth-child(3) { background-color: #d27575; }
 th:nth-child(4) { background-color: #a43d3d; }
